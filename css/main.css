@@ -44,7 +44,7 @@ header {
 }
 
 .logo {
-  width: 7rem;
+  width: 10rem;
 }
 
 /* Main */
@@ -208,6 +208,11 @@ h1 {
 
 @media screen and (min-width: 1440px) {
 
+  .header-main-wrapper {
+    background: url("../images/bg-desktop.svg") no-repeat top left,
+      var(--violet);
+  }
+
   main, header {
     max-width: 1300px;
   }
@@ -219,5 +224,9 @@ h1 {
 
   .left-part {
     flex: 0 1 auto;
+  }
+
+  .social-media-list {
+    margin-top: 12rem;
   }
 }
