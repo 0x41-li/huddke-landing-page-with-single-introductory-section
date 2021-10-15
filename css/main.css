@@ -209,8 +209,9 @@ h1 {
 @media screen and (min-width: 1440px) {
 
   .header-main-wrapper {
-    background: url("../images/bg-desktop.svg") no-repeat top left,
+    background: url("../images/bg-desktop.svg") no-repeat top center / contain,
       var(--violet);
+      min-height: unset;
   }
 
   main, header {
